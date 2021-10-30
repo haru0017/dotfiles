@@ -1,0 +1,9 @@
+### all ignore ###
+/*
+/.**
+
+### not ignore ###
+!/install.sh
+!/.vimrc
+!/README.md
+!/.gitignore
