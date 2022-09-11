@@ -1,0 +1,11 @@
+[user]
+	name = haru0017
+	email = hammerhead0017@gmail.com
+
+[alias]
+	s = status
+	ss = status -s
+	co = checkout
+	fixit = commit --amend --no-edit
+	l = log --graph --decorate --pretty=oneline --abbrev-commit
+	cm = commit -m
