@@ -26,14 +26,16 @@ brew bundle
 echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/fish
 
-# install fisher and packages
-fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
-fish -c "fisher update"
-
 # other config
 ln -sf ${THIS_DIR}/fish/config.fish ~/.config/fish
 ln -sf ${THIS_DIR}/fish/fish_plugins ~/.config/fish
-ln -sf ${THIS_DIR}/karabiner.json ~/.conf
+ln -sf ${THIS_DIR}/karabiner.json ~/.config/karabiner/karabiner.json
+
+# install fisher and packages
+fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
+cd fish
+fish -c "fisher update"
+
 
 cat << END
 
