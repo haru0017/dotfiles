@@ -36,6 +36,9 @@ fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/
 cd fish
 fish -c "fisher update"
 
+# terminal settings
+cd
+touch .hushlogin
 
 cat << END
 
