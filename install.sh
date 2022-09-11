@@ -14,11 +14,6 @@ for f in .??*; do
   ln -snfv ${THIS_DIR}/"$f" ~/
 done
 
-# other config
-ln -sf ${THIS_DIR}/fish/config.fish ~/.config/fish
-ln -sf ${THIS_DIR}/fish/fish_plugins ~/.config/fish
-ln -sf ${THIS_DIR}/karabiner.json ~/.config/karabiner/karabiner.json
- 
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -32,6 +27,11 @@ chsh -s /opt/homebrew/bin/fish
 # install fisher and packages
 fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
 fish -c "fisher update"
+
+# other config
+ln -sf ${THIS_DIR}/fish/config.fish ~/.config/fish
+ln -sf ${THIS_DIR}/fish/fish_plugins ~/.config/fish
+ln -sf ${THIS_DIR}/karabiner.json ~/.conf
 
 cat << END
 
