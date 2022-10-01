@@ -27,8 +27,13 @@ echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/fish
 
 # other config
+<<<<<<< HEAD
 ln -sf ${THIS_DIR}/fish/config.fish ~/.config/fish
 ln -sf ${THIS_DIR}/fish/fish_plugins ~/.config/fish
+=======
+ln -sf ${THIS_DIR}/fish/config.fish ~/.config/fish/config.fish
+ln -sf ${THIS_DIR}/fish/fish_plugins ~/.config/fish/fish_plugins
+>>>>>>> 49be0ffdb819a7c5062c9f9dfac108c93865f3cc
 ln -sf ${THIS_DIR}/karabiner.json ~/.config/karabiner/karabiner.json
 
 # install fisher and packages
