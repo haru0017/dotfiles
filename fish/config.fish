@@ -1,11 +1,11 @@
 set fish_greeting ""
 
 # Homebrew
-eval (/opt/homebrew/bin/brew shellenv)
+fish_add_path /opt/homebrew/bin
 
 # Go
 set -g GOPATH $HOME/go
-set -gx PATH $GOPATH/bin $PATH
+fish_add_path $GOPATH/bin
 
 # Key Bindings
 function fish_user_key_bindings
