@@ -3,6 +3,9 @@ set fish_greeting ""
 # Homebrew
 fish_add_path /opt/homebrew/bin
 
+# MacPorts
+fish_add_path /opt/local/bin
+
 # Go
 set -g GOPATH $HOME/go
 fish_add_path $GOPATH/bin
