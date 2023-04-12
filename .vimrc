@@ -18,5 +18,6 @@ syntax enable
 set hlsearch
 set incsearch
 set wildmenu
-set tabstop=50
+set tabstop=4
+set shiftwidth=4
 
