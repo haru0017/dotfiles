@@ -18,3 +18,5 @@ syntax enable
 set hlsearch
 set incsearch
 set wildmenu
+set tabstop=50
+
