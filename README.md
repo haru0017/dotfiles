@@ -1,12 +1,12 @@
 # dotfiles
 
-- fish
+- zsh
 - vim
 - homebrew
 - ocaml
 - karabiner
 
-## Setup
+## Usage
 
 ```
 ./install.sh
