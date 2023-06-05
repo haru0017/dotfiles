@@ -1,8 +1,11 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
+
+# brew
 brew "bat"
 brew "glib"
 brew "python@3.9"
+brew "cmake"
 brew "exa"
 brew "fd"
 brew "fish"
@@ -15,7 +18,17 @@ brew "jq"
 brew "nvm"
 brew "opam"
 brew "peco"
+brew "pyenv"
 brew "ripgrep"
 brew "rlwrap"
 brew "tree"
 brew "wget"
+
+# cask
+cask 'alfred'
+cask 'clipy'
+cask 'google-chrome'
+cask 'google-japanese-ime'
+cask 'iterm2'
+cask 'visual-studio-code'
+cask "google-cloud-sdk"
