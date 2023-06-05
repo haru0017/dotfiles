@@ -22,6 +22,7 @@ brew "ripgrep"
 brew "rlwrap"
 brew "tree"
 brew "wget"
+brew "z"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
