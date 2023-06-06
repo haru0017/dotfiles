@@ -35,3 +35,9 @@ cask 'iterm2'
 cask 'visual-studio-code'
 cask "google-cloud-sdk"
 cask "rectangle"
+cask "todoist"
+cask "slack"
+cask "notion"
+cask "logi-options-plus"
+cask "karabiner-elements"
+cask "tailscale"
