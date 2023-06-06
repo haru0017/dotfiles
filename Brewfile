@@ -12,7 +12,6 @@ brew "fzf"
 brew "gcc"
 brew "harfbuzz"
 brew "pango"
-brew "rectangle"
 brew "librsvg"
 brew "graphviz"
 brew "jq"
@@ -35,3 +34,4 @@ cask 'google-japanese-ime'
 cask 'iterm2'
 cask 'visual-studio-code'
 cask "google-cloud-sdk"
+cask "rectangle"
