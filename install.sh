@@ -23,6 +23,7 @@ for f in .??*; do
 done
 
 # other config
+mkdir ~/.config/karabiner
 ln -sf ${THIS_DIR}/karabiner.json ~/.config/karabiner/karabiner.json
 
 # terminal settings
