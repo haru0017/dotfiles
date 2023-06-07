@@ -30,7 +30,6 @@ brew "zsh-syntax-highlighting"
 cask 'alfred'
 cask 'clipy'
 cask 'google-chrome'
-cask 'google-japanese-ime'
 cask 'iterm2'
 cask 'visual-studio-code'
 cask "google-cloud-sdk"
