@@ -123,3 +123,4 @@ bindkey '^f' autosuggest-accept
 bindkey '^k' forward-word
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . /opt/homebrew/etc/profile.d/z.sh
+source "$HOME/.rye/env"
