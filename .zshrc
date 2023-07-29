@@ -16,6 +16,7 @@ export NVM_DIR="$HOME/.nvm"
 # Alias
 alias python='python3'
 alias ocaml='rlwrap ocaml'
+alias gweb="open $(git config remote.origin.url | sed 's!.*:!https://github.com/!')"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
