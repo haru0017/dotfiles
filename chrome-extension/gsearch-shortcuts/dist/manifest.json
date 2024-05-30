@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/content-script-loader.main.ts.565681f1.0d9cdd66.js"
+        "assets/content-script-loader.main.ts.5f73d5ea.b826ec11.js"
       ],
       "matches": [
         "*://*.google.ac/search?*",
@@ -422,7 +422,7 @@
         "*://*.google.ws/*"
       ],
       "resources": [
-        "assets/main.ts.565681f1.js"
+        "assets/main.ts.5f73d5ea.js"
       ],
       "use_dynamic_url": true
     }
