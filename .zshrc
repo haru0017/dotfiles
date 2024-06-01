@@ -18,6 +18,8 @@ alias python='python3'
 alias ocaml='rlwrap ocaml'
 alias gweb="open $(git config remote.origin.url | sed 's!.*:!https://github.com/!')"
 
+alias pbcp='pbcopy'
+
 # others
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -29,3 +31,8 @@ source "$HOME/.rye/env"
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
+
+# fn
+function cmdcp() {
+	echo "$*" | pbcopy
+}
