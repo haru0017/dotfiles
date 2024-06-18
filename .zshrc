@@ -33,7 +33,10 @@ fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
 
-# fn
-function cmdcp() {
-	echo "$*" | pbcopy
+
+function cmcp() {
+       echo -n "$BUFFER" | pbcopy
 }
+
+zle -N cmcp
+bindkey '^k' cmcp
