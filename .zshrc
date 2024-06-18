@@ -19,7 +19,7 @@ alias ocaml='rlwrap ocaml'
 
 alias gweb="open $(git config remote.origin.url | sed 's!.*:!https://github.com/!')"
 
-alias cof="git branch | fzf | xargs git checkout"
+alias cof="git branch | fzf --height 40% | xargs git checkout"
 alias cob="git checkout -b"
 alias pull="git pull"
 alias push="git push"
