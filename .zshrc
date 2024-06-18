@@ -17,6 +17,7 @@ export NVM_DIR="$HOME/.nvm"
 alias python='python3'
 alias ocaml='rlwrap ocaml'
 alias gweb="open $(git config remote.origin.url | sed 's!.*:!https://github.com/!')"
+alias cof="git branch | fzf | xargs git checkout"
 
 alias pbcp='pbcopy'
 
