@@ -21,3 +21,12 @@ set wildmenu
 set tabstop=4
 set shiftwidth=4
 set smartcase
+set clipboard+=unnamed
+
+" Insert Mode:{{{
+
+" Exit insert mode.
+inoremap jj <ESC>
+
+" }}}
+
