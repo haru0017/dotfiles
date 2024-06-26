@@ -24,6 +24,7 @@ alias cob="git checkout -b"
 alias pull="git pull"
 alias push="git push"
 alias st="git status"
+alias df="git diff"
 alias ad="git add"
 alias cm="git commit -m"
 
@@ -41,10 +42,3 @@ fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
 
-
-function cmcp() {
-       echo -n "$BUFFER" | pbcopy
-}
-
-zle -N cmcp
-bindkey '^k' cmcp
