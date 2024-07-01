@@ -1,4 +1,5 @@
 " # General
+set nocompatible
 set fenc=utf-8
 set nobackup
 set noswapfile
@@ -12,16 +13,29 @@ set vb t_vb=
 set smartindent
 set showmatch
 set laststatus=2
-set wildmode=list:longest
+
+set wildmenu
+set wildmode=longest,full
+
 set cursorline
 syntax enable
 set hlsearch
-set incsearch
-set wildmenu
 set tabstop=4
 set shiftwidth=4
 set smartcase
 set clipboard+=unnamed
+set confirm
+
+" Normal Mode:{{{
+
+nnoremap j gj
+nnoremap k gk
+
+" Move between windows
+nnoremap <Return><Return> <c-w><c-w>
+
+" }}}
+
 
 " Insert Mode:{{{
 

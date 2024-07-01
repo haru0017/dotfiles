@@ -30,6 +30,9 @@ alias cm="git commit -m"
 
 alias pbcp='pbcopy'
 
+alias ls='ls --color=auto'
+export CLICOLOR='xterm-256color'
+
 # others
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
