@@ -17,7 +17,7 @@ export NVM_DIR="$HOME/.nvm"
 alias python='python3'
 alias ocaml='rlwrap ocaml'
 
-alias gweb="open $(git config remote.origin.url | sed 's!.*:!https://github.com/!')"
+alias gro="open $(git config remote.origin.url | sed 's!.*:!https://github.com/!')"
 
 alias cof="git branch | fzf --height 40% | xargs git checkout"
 alias cob="git checkout -b"
@@ -33,14 +33,22 @@ alias pbcp='pbcopy'
 alias ls='ls --color=auto'
 export CLICOLOR='xterm-256color'
 
-# others
+# Others
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^f' autosuggest-accept
 bindkey '^j' forward-word
+
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 . /opt/homebrew/etc/profile.d/z.sh
+
 source "$HOME/.rye/env"
+
+## Prompt
+
+### Pure
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
