@@ -28,6 +28,7 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
 # cask
+cask 'google-japanese-ime'
 cask 'alfred'
 cask 'clipy'
 cask 'google-chrome'
