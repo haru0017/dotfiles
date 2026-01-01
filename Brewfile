@@ -18,7 +18,6 @@ brew "graphviz"
 brew "jq"
 brew "nvm"
 brew "opam"
-brew "pyenv"
 brew "ripgrep"
 brew "rlwrap"
 brew "tree"
@@ -29,16 +28,11 @@ brew "zsh-syntax-highlighting"
 
 # cask
 cask 'google-japanese-ime'
-cask 'alfred'
-cask 'clipy'
 cask 'google-chrome'
-cask 'iterm2'
 cask 'visual-studio-code'
-cask "google-cloud-sdk"
 cask "rectangle"
 cask "todoist"
 cask "slack"
-cask "notion"
 cask "logi-options-plus"
 cask "karabiner-elements"
 cask "tailscale"
